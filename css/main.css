@@ -1,0 +1,252 @@
+/*****BASE STYLES*****/
+body {
+  font-family:'montserrat', sans-serif;
+  color: #000000;
+}
+
+.center-page {
+  width: 1200px;
+  margin: auto;
+  padding-bottom: 20px;
+  overflow:auto;
+}
+
+/*****GRID*****/
+.full-width {
+    width:1200px;
+    margin: 0 auto;
+  }
+
+.half-width {
+  width:600px;
+}
+
+.third-width {
+  width:359px;
+}
+
+/*****HEADER*****/
+
+#homepage .half-width{
+  float: left;
+}
+
+#homepage h1 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24pt;
+  padding-bottom: 0px;
+  color: #77a466;
+  padding-top: 10px;
+  text-align: left;
+  padding-left:0px;
+}
+
+#homepage h1 span {
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: inherit;
+  line-height: inherit;
+  color: #000000;
+}
+
+#homepage nav {
+margin-left: 0;
+padding-top: 25px;
+}
+
+#homepage nav ul li {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 13pt;
+  display: inline-block;
+  padding-left: 10px;
+  text-align: left;
+  margin-left: -2px;
+}
+
+#homepage nav ul li a {
+  color: #77a466;
+  text-decoration: none;
+}
+
+.homepage-banner img {
+  height: 300px;
+  width: 1200px;
+  border-bottom: 5px solid #77a466;
+}
+
+/*****BODY*****/
+
+.full-width h2 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  line-height: 14pt;
+  color: #77a466;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.full-width p {
+  font-family:'Montserrat', sans-serif;
+  font-size: 12pt;
+  line-height: 16pt;
+  color: #000000;
+  text-align: justify;
+  margin: 15px auto;
+}
+
+#thirds-parent-container {
+  height:200px;
+  border-top: 1px solid lightgray;
+  padding-top: 15px;
+  border-bottom: 1px solid lightgray;
+  overflow: auto;
+}
+
+#thirds-parent-container h3{
+  font-family:'Montserrat', sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  line-height: 13pt;
+  color: #000000;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#box1, #box2, #box3 {
+  padding: 0 20px;
+  float: left;
+}
+
+#box1 p {
+  font-family:'Montserrat', sans-serif;
+  font-size: 12pt;
+  line-height: 20pt;
+  color: #77a466;
+}
+
+#box2 p,
+#box3 p, {
+    font-family:'Montserrat', sans-serif;
+    font-size: 12pt;
+    font-weight: 200;
+    line-height: 12pt;
+    color: #000000;
+}
+
+#box2 {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+ }
+
+/*****FOOTER*****/
+.clear-fix {
+  clear: both;
+  width: 100%;
+}
+
+footer p {
+  font-family:'Montserrat', sans-serif;
+  font-size: 13pt;
+  font-weight: bold;
+  color: #000000;
+  padding-top: -15px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+footer span {
+  font-family:'dancing script', serif;
+  font-size: 18pt;
+  font-weight: bold;
+  line-height: 23pt;
+  color: #77a466;
+}
+
+/*****MENU PAGE ONLY*****/
+
+.menu-back {
+  position: absolute;
+}
+
+.menu-back a p {
+  padding: 20px 0 0 30px;
+  font-family:'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 16px;
+  color: gray;
+}
+
+.menu-back a {
+  text-decoration: none;
+}
+
+
+header h1 {
+  text-align: center;
+  margin-top: 0 auto;
+  padding-bottom: 0px;
+}
+
+#menu-banner {
+  background-image: url('https://pngimage.net/wp-content/uploads/2018/06/vector-leaf-png-4.png');
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-size: 100px 100px;
+}
+
+#menu-boxes-container {
+  margin-left: 20px;
+  padding-bottom: 300px;
+  border-bottom: 1px solid lightgray;
+}
+
+#menu-boxes-container h2,
+#menu-boxes-container p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 23px;
+  vertical-align: center;
+}
+
+#menu-boxes-container h2{
+  padding-top: 15px;
+}
+
+#menu-boxes-container .third-width{
+  border: 2px dashed lightgray;
+  margin-right: 15px;
+  padding: 0px 5px;
+  float: left;
+  height: 250px;
+}
+
+#menu-boxes-container .box3 {
+  border: 2px dashed lightgray;
+  padding: 0px 5px;
+  width: 359px;
+  float: left;
+  height: 250px;
+}
+
+.menu-footer p {
+  font-family:'Montserrat', sans-serif;
+  font-size: 13pt;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+.menu-footer span {
+  font-family:'dancing script', serif;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #77a466;
+}
